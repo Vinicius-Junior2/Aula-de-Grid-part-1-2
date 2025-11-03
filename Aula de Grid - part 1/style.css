@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    font-family: Montserrat;
+    background-color: #0d1117;
+    color: #ffffff;
+}
+
+.header{
+    font-family: Montserrat;
+    padding: 10px;
+    margin: 10px;  
+}
+
+.first-title {
+    margin: 10px;
+    font-weight: normal;
+    color: #e48f4f;
+}
+
+.sub-title {
+    margin: 10px;
+    font-weight: normal;
+    color: #e48f4f;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Bitcount Grid Single;
+}
+
+.menu {
+    margin: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px; 
+}
+
+.item {
+    background-color: #ffffff;
+    color: #e48f4f;
+    font-size: 24px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px auto;
+    max-width: 50%;
+}
